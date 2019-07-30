@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>AuelsBlog</title>
+  <title>Auels</title>
   
-  
+  <subtitle>真常之道,悟者自得,得悟道者,常清静矣</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>

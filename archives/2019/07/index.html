@@ -5,13 +5,28 @@
   
 
 
-<html class="theme-next muse use-motion" lang>
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="theme-color" content="#222">
 
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #64CEAA; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #64CEAA, 0 0 5px     #64CEAA; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #64CEAA;    /*上边框颜色*/
+        border-left-color: #64CEAA;    /*左边框颜色*/
+    }
+</style>
 
 
 
@@ -74,20 +89,23 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="AuelsBlog" type="application/atom+xml">
+  <link rel="alternate" href="/atom.xml" title="Auels" type="application/atom+xml">
 
 
 
 
 
 
+<meta name="description" content="灯火阑珊处,斯人已忘怀">
 <meta property="og:type" content="website">
-<meta property="og:title" content="AuelsBlog">
+<meta property="og:title" content="Auels">
 <meta property="og:url" content="http://yoursite.com/archives/2019/07/index.html">
-<meta property="og:site_name" content="AuelsBlog">
-<meta property="og:locale" content="default">
+<meta property="og:site_name" content="Auels">
+<meta property="og:description" content="灯火阑珊处,斯人已忘怀">
+<meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="AuelsBlog">
+<meta name="twitter:title" content="Auels">
+<meta name="twitter:description" content="灯火阑珊处,斯人已忘怀">
 
 
 
@@ -103,7 +121,7 @@
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -123,7 +141,7 @@
 
 
 
-  <title>Archive | AuelsBlog</title>
+  <title>归档 | Auels</title>
   
 
 
@@ -135,7 +153,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
@@ -154,12 +172,12 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">AuelsBlog</span>
+        <span class="site-title">Auels</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">真常之道,悟者自得,得悟道者,常清静矣</p>
       
   </div>
 
@@ -184,7 +202,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
-            Home
+            首页
           </a>
         </li>
       
@@ -194,7 +212,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
-            Archives
+            归档
           </a>
         </li>
       
@@ -207,7 +225,7 @@
             
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
             
-            Search
+            搜索
           </a>
         </li>
       
@@ -226,7 +244,7 @@
       <i class="fa fa-times-circle"></i>
     </span>
     <div class="local-search-input-wrapper">
-      <input autocomplete="off" placeholder="Searching..." spellcheck="false" type="text" id="local-search-input">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
     </div>
   </div>
   <div id="local-search-result"></div>
@@ -262,7 +280,7 @@
         
           
         
-        Um..! 1 post. Keep on posting.
+        嗯..! 目前共计 1 篇日志。 继续努力。
       </span>
 
       
@@ -350,7 +368,7 @@
               <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="Auels">
             
               <p class="site-author-name" itemprop="name">Auels</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">灯火阑珊处,斯人已忘怀</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -361,7 +379,7 @@
                 <a href="/archives/">
               
                   <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">posts</span>
+                  <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
@@ -394,6 +412,12 @@
                     <a href="https://plus.google.com/eli" target="_blank" title="Google">
                       
                         <i class="fa fa-fw fa-google-plus-square"></i>Google</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://weibo.com/SiLianAu" target="_blank" title="Weibo">
+                      
+                        <i class="fa fa-fw fa-weibo"></i>Weibo</a>
                   </span>
                 
             </div>
@@ -431,28 +455,17 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Auels</span>
 
   
 </div>
 
-
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
-
-
-
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
-
-
-
+<!--
 
         
 
@@ -490,6 +503,8 @@
 
   
 
+
+  
 
 
 
@@ -529,6 +544,11 @@
   
   
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
   
 
 
@@ -937,5 +957,6 @@
 
   
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":true}});</script></body>
+</body>
 </html>
+--></div></footer></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":true}});</script></body></html>
