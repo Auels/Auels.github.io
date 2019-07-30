@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AuelsBlog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-07-29T05:41:12.561Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Auels</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My blog</title>
+    <link href="http://yoursite.com/2019/07/29/My-blog/"/>
+    <id>http://yoursite.com/2019/07/29/My-blog/</id>
+    <published>2019-07-29T05:41:12.000Z</published>
+    <updated>2019-07-29T05:41:12.561Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
